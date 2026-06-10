@@ -4,58 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Centre of Water and Air Analysis — Adamas University</title>
-  <meta name="description" content="The Centre of Water and Air Analysis is dedicated to advanced research, monitoring, and analysis of water and air quality for environmental protection and public health." />
-
-  <!-- Favicon: replace src with your institution's favicon -->
+  <meta name="description" content="The Centre of Water and Air Analysis at Adamas University is dedicated to advanced research, monitoring, and analysis of water and air quality for environmental protection and public health." />
   <link rel="icon" type="image/png" href="images/favicon.png" />
-
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-<!-- ═══════════════════════════════════════
-     TOP BAR
-══════════════════════════════════════════ -->
-<div id="top-bar">
-  <div class="container">
-    <span>
-      <!-- Replace with your university name and URL -->
-      A unit of <a href="#" target="_blank">Adamas University</a>
-    </span>
-    <div class="top-bar-contact">
-      <span>
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.22 2.18 2 2 0 012.18 0h3A2 2 0 017.14 1.67a12.94 12.94 0 00.57 2.57 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.56-1.56a2 2 0 012.11-.45 12.94 12.94 0 002.57.57A2 2 0 0122 13.92z"/></svg>
-        <!-- Replace with director's phone number -->
-        [Director Phone]
-      </span>
-      <span>
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        <!-- Replace with director's email -->
-        [Director Email]
-      </span>
+<!-- PAGE LOADER -->
+<div id="page-loader">
+  <div class="loader-logo">
+    <div class="loader-ripple">
+      <span></span><span></span><span></span>
     </div>
+    <div class="loader-text">CWAA · Adamas University</div>
   </div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
 </div>
 
-<!-- ═══════════════════════════════════════
-     NAVBAR
-══════════════════════════════════════════ -->
+
+
+<!-- NAVBAR -->
 <header id="navbar">
   <div class="container">
     <nav class="nav-inner">
-
-      <a href="#home" class="nav-brand">
-        <!--
-          Replace the placeholder below with your institution logo.
-          Example: <img src="images/logo.png" alt="CWAA Logo" />
-        -->
-        <div style="width:54px;height:54px;background:linear-gradient(135deg,#0a2340,#1a7a8a);border-radius:8px;display:flex;align-items:center;justify-content:center;">
-          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+      <a href="index.html" class="nav-brand">
+        <!-- Replace with: <img src="images/logo.png" alt="CWAA" /> -->
+        <div class="nav-brand-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
             <path d="M12 6c-2 2-3 4-3 6s1 4 3 6"/>
             <path d="M12 6c2 2 3 4 3 6s-1 4-3 6"/>
@@ -64,704 +42,404 @@
         </div>
         <div class="brand-text">
           <span class="brand-name">Centre of Water &amp; Air Analysis</span>
-          <!-- Replace with your university name -->
-          <span class="brand-sub">Adamas University</span>
+          <span class="brand-sub">Adamas University, Kolkata</span>
         </div>
       </a>
 
       <ul class="nav-links" id="nav-links">
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li class="nav-dropdown">
-          <a href="#">Research</a>
-          <ul class="dropdown-menu">
-            <li><a href="#vision-mission">Vision &amp; Mission</a></li>
-            <li><a href="#objectives">Objectives</a></li>
-            <li><a href="#activities">Activities &amp; Services</a></li>
-          </ul>
-        </li>
-        <li><a href="#faculty">Our Team</a></li>
-        <li><a href="#instruments">Instruments</a></li>
-        <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+        <li><a href="research.html">Research & Activities</a></li>
+        <li class="nav-page-link"><a href="team.html">Our Team</a></li>
+        <li class="nav-cta"><a href="#contact">Contact Us</a></li>
       </ul>
 
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <button class="hamburger" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
     </nav>
   </div>
 </header>
 
-<!-- ═══════════════════════════════════════
-     HERO SLIDER
-══════════════════════════════════════════ -->
+<!-- HERO -->
 <section id="home">
-<div id="hero">
-
-  <!-- SLIDE 1 -->
-  <div class="slide">
-    <!--
-      Option A — Use an image:
-      <img src="images/hero-1.jpg" alt="Water analysis laboratory" class="slide-img" />
-
-      Option B — Gradient placeholder (remove when you add real images):
-    -->
-    <div class="slide-placeholder s1"></div>
-    <div class="slide-overlay"></div>
-    <div class="slide-content">
+  <div id="hero">
+    <div class="slide">
+      <div class="slide-placeholder s1"></div>
+      <!-- <img src="images/hero-1.jpg" alt="Water analysis laboratory" class="slide-img" /> -->
+      <svg class="slide-wave" viewBox="0 0 1440 90" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,90 L0,90 Z" fill="white"/></svg>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <div class="container">
+          <span class="slide-tag">Research &amp; Innovation</span>
+          <h2>Advanced Water &amp; Air<br />Quality Analysis</h2>
+          <p>Dedicated to cutting-edge environmental monitoring, testing, and research for a cleaner, healthier future.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-placeholder s2"></div>
+      <!-- <img src="images/hero-2.jpg" alt="Air quality monitoring" class="slide-img" /> -->
+      <svg class="slide-wave" viewBox="0 0 1440 90" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,90 L0,90 Z" fill="white"/></svg>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <div class="container">
+          <span class="slide-tag">State-of-the-Art Facilities</span>
+          <h2>Precision Instruments for<br />Environmental Testing</h2>
+          <p>Equipped with modern analytical instruments for comprehensive water chemistry, microbiology, and air pollutant assessment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-placeholder s3"></div>
+      <!-- <img src="images/hero-3.jpg" alt="Faculty and students" class="slide-img" /> -->
+      <svg class="slide-wave" viewBox="0 0 1440 90" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,90 L0,90 Z" fill="white"/></svg>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <div class="container">
+          <span class="slide-tag">Academic Excellence</span>
+          <h2>Shaping Future Environmental<br />Scientists &amp; Researchers</h2>
+          <p>Fostering interdisciplinary collaboration between academia, industry, and government for sustainable environmental solutions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide-controls">
       <div class="container">
-        <span class="slide-tag">Research &amp; Innovation</span>
-        <h2>Advanced Water &amp; Air<br />Quality Analysis</h2>
-        <p>Dedicated to cutting-edge environmental monitoring, testing, and research for a cleaner, healthier future.</p>
+        <div class="slider-dots">
+          <button class="dot"></button>
+          <button class="dot"></button>
+          <button class="dot"></button>
+        </div>
+        <div class="slider-arrows">
+          <button class="slider-btn btn-prev" aria-label="Previous">&#8592;</button>
+          <button class="slider-btn btn-next" aria-label="Next">&#8594;</button>
+        </div>
       </div>
     </div>
   </div>
-
-  <!-- SLIDE 2 -->
-  <div class="slide">
-    <!-- <img src="images/hero-2.jpg" alt="Air quality monitoring" class="slide-img" /> -->
-    <div class="slide-placeholder s2"></div>
-    <div class="slide-overlay"></div>
-    <div class="slide-content">
-      <div class="container">
-        <span class="slide-tag">State-of-the-Art Facilities</span>
-        <h2>Precision Instruments for<br />Environmental Testing</h2>
-        <p>Equipped with modern analytical instruments for comprehensive water chemistry, microbiology, and air pollutant assessment.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- SLIDE 3 -->
-  <div class="slide">
-    <!-- <img src="images/hero-3.jpg" alt="Faculty and students" class="slide-img" /> -->
-    <div class="slide-placeholder s3"></div>
-    <div class="slide-overlay"></div>
-    <div class="slide-content">
-      <div class="container">
-        <span class="slide-tag">Academic Excellence</span>
-        <h2>Shaping Future Environmental<br />Scientists &amp; Researchers</h2>
-        <p>Fostering interdisciplinary collaboration between academia, industry, and government for sustainable environmental solutions.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <div class="slider-controls">
-    <div class="slider-dots">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-    <div class="slider-arrows">
-      <button class="slider-btn btn-prev" aria-label="Previous slide">&#8592;</button>
-      <button class="slider-btn btn-next" aria-label="Next slide">&#8594;</button>
-    </div>
-  </div>
-
-</div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     STATS BAR
-══════════════════════════════════════════ -->
+<!-- STATS BAR -->
 <div id="stats-bar">
   <div class="container">
     <div class="stats-grid">
-      <!--
-        Replace data-target values and labels with your actual numbers.
-        Use data-suffix="+" for "15+" style numbers.
-      -->
       <div class="stat-item">
-        <div class="stat-num" data-target="4">[Number]</div>
+        <div class="stat-num" data-target="4" data-suffix="+">4+</div>
         <div class="stat-label">Research Projects</div>
       </div>
       <div class="stat-item">
-        <div class="stat-num" data-target="8">[Number]</div>
+        <div class="stat-num" data-target="8" data-suffix="+">8+</div>
         <div class="stat-label">Faculty Members</div>
       </div>
       <div class="stat-item">
-        <div class="stat-num" data-target="7" data-suffix="+">[Number]</div>
+        <div class="stat-num" data-target="7" data-suffix="+">7+</div>
         <div class="stat-label">Instruments</div>
       </div>
       <div class="stat-item">
-        <div class="stat-num" data-target="0" data-suffix="+">[Number]</div>
+        <div class="stat-num" data-target="5" data-suffix="+">5+</div>
         <div class="stat-label">Years of Service</div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════
-     ABOUT THE CENTRE
-══════════════════════════════════════════ -->
+<!-- ABOUT -->
 <section id="about" class="section-pad">
   <div class="container">
     <div class="about-grid">
-
       <div class="about-image-block fade-in">
-        <!--
-          Replace with a real image of the centre / lab:
-          <img src="images/about-centre.jpg" alt="About the Centre" class="about-img-main" />
-        -->
+        <!-- Replace with: <img src="images/about-centre.jpg" alt="Centre" class="about-img-main" /> -->
         <div class="about-img-placeholder">
           <span class="placeholder-icon">🔬</span>
           <p>Replace with centre photo</p>
         </div>
-        <div class="about-accent"></div>
+        <div class="about-float-badge">
+          <div class="bf-num">Est.</div>
+          <div class="bf-label">Adamas University</div>
+        </div>
       </div>
-
-      <div class="about-text fade-in">
+      <div class="about-text fade-in fade-in-delay-1">
         <p class="section-label">About the Centre</p>
         <h2 class="section-title">Centre of Water and Air Analysis</h2>
         <div class="section-divider"></div>
-
-        <!--
-          ════════════════════════════════════════════════════
-          REPLACE the paragraphs below with the actual
-          "About the Centre" content provided by your client.
-          ════════════════════════════════════════════════════
-        -->
-        <p>
-          The Centre for Water and Air Analysis at Adamas University was established to promote scientific research, environmental monitoring, and sustainable solutions to contemporary environmental challenges. It provides advanced analytical support for assessing water and air quality through modern instrumentation and evidence-based studies.
-        </p>
-        <p>
-          The Centre functions as an academic and research platform under Adamas University, supporting interdisciplinary research, consultancy, training, and community outreach. It contributes significantly to environmental education and capacity building through student training and collaborative initiatives.
-        </p>
-        <p>
-          The Centre focuses on pollution monitoring, ecological assessments, biodiversity studies, and environmental impact analysis. It also supports industrial and government projects and is committed to fostering environmental sustainability through scientific excellence and innovative research.
-        </p>
-
-
+        <p>The Centre for Water and Air Analysis at Adamas University was established to promote scientific research, environmental monitoring, and sustainable solutions to contemporary environmental challenges. It provides advanced analytical support for assessing water and air quality through modern instrumentation and evidence-based studies.</p>
+        <p>The Centre functions as an academic and research platform under Adamas University, supporting interdisciplinary research, consultancy, training, and community outreach. It contributes significantly to environmental education and capacity building through student training and collaborative initiatives.</p>
+        <p>The Centre focuses on pollution monitoring, ecological assessments, biodiversity studies, and environmental impact analysis. It also supports industrial and government projects and is committed to fostering environmental sustainability through scientific excellence and innovative research.</p>
+        <div class="about-highlights">
+          <div class="highlight-item">Water Quality Monitoring</div>
+          <div class="highlight-item">Air Pollution Analysis</div>
+          <div class="highlight-item">Analytical Testing Laboratory</div>
+          <div class="highlight-item">Academic Research Hub</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     VISION & MISSION
-══════════════════════════════════════════ -->
-<section id="vision-mission" class="section-pad bg-off-white">
-  <div class="container text-center">
-    <p class="section-label">Guiding Principles</p>
-    <h2 class="section-title">Vision &amp; Mission</h2>
-    <div class="section-divider" style="margin:0 auto 0;"></div>
-  </div>
+<!-- VISION & MISSION -->
+<section id="vision-mission" class="section-pad">
   <div class="container">
-    <div class="vm-grid">
 
-      <div class="vm-card vision fade-in">
-        <h3>Our Vision</h3>
-        <!--
-          ════════════════════════════════════════════════════
-          REPLACE with client-provided Vision statement.
-          ════════════════════════════════════════════════════
-        -->
-        <p>
-          To become a leading centre of excellence in water and air quality analysis, fostering sustainable environmental practices and contributing to global efforts in mitigating pollution through advanced research, innovative solutions, and community engagement.
-        </p>
+    <!-- VISION ROW: image left, text right -->
+    <div class="vm2-row fade-in">
+      <div class="vm2-image-col">
+        <img src="https://waterair.auaicoe.in/wp-content/uploads/2026/06/Chancellor-Sir-.png" alt="Vision" class="vm2-photo" />
+        <div class="vm2-image-label">
+          <span>Dr. [Full Name]</span>
+          <span class="vm2-image-role">Director, CWAA</span>
+        </div>
+        <div class="vm2-dots vm2-dots-br"></div>
+        <div class="vm2-dots vm2-dots-bl"></div>
       </div>
-
-      <div class="vm-card mission fade-in">
-        
-        <h3>Our Mission</h3>
-        <!--
-          ════════════════════════════════════════════════════
-          REPLACE with client-provided Mission statement.
-          ════════════════════════════════════════════════════
-        -->
-        <p>
-          <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>To provide accurate, reliable, and advanced analytical services for assessing water and air quality, catering to academic, industrial, and societal needs.</li>
-
-    <li>To advance scientific understanding of environmental challenges by promoting interdisciplinary research and innovation.</li>
-
-    <li>To educate and empower communities, industries, and stakeholders in adopting sustainable practices for clean water and air.</li>
-
-    <li>To build capacity among students and researchers by offering training and knowledge-sharing programs in environmental monitoring and analysis.</li>
-</ul>
-        </p>
+      <div class="vm2-text-col">
+        <h2 class="vm2-heading">Our Vision</h2>
+        <ul class="vm2-list">
+          <li>To become a leading centre of excellence in water and air quality analysis, fostering sustainable environmental practices and contributing to global efforts in mitigating pollution.</li>
+          <li>To promote advanced knowledge and research in environmental monitoring and pollution science.</li>
+          <li>To encourage innovative technologies and best practices in water and air quality management.</li>
+          <li>To develop sustainable and cost-effective solutions for environmental protection and public health.</li>
+          <li>To strengthen industry–academia collaboration in the field of environmental science.</li>
+          <li>To contribute to global efforts in mitigating pollution through advanced research and community engagement.</li>
+        </ul>
       </div>
-
     </div>
+
+    <!-- MISSION ROW: text left, image right -->
+    <div class="vm2-row fade-in fade-in-delay-1">
+      <div class="vm2-text-col">
+        <h2 class="vm2-heading">Our Mission</h2>
+        <ul class="vm2-list">
+          <li>To provide accurate, reliable, and advanced analytical services for assessing water and air quality, catering to academic, industrial, and societal needs.</li>
+          <li>To advance scientific understanding of environmental challenges by promoting interdisciplinary research and innovation.</li>
+          <li>To educate and empower communities, industries, and stakeholders in adopting sustainable practices for clean water and air.</li>
+          <li>To build capacity among students and researchers by offering training and knowledge-sharing programs in environmental monitoring and analysis.</li>
+        </ul>
+      </div>
+      <div class="vm2-image-col">
+        <img src="https://waterair.auaicoe.in/wp-content/uploads/2026/06/Vice-Chancellor-Sir.png" alt="Mission" class="vm2-photo" />
+        <div class="vm2-image-label">
+          <span>Dr. [Full Name]</span>
+          <span class="vm2-image-role">Member Secretary, CWAA</span>
+        </div>
+        <div class="vm2-dots vm2-dots-br"></div>
+        <div class="vm2-dots vm2-dots-bl"></div>
+      </div>
+    </div>
+
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     OBJECTIVES
-══════════════════════════════════════════ -->
+<!-- OBJECTIVES -->
 <section id="objectives" class="section-pad">
   <div class="container">
     <p class="section-label">What We Aim to Achieve</p>
     <h2 class="section-title">Objectives</h2>
     <div class="section-divider"></div>
-    <p class="section-intro">
-    </p>
-
     <div class="objectives-grid">
-      <!--
-        ════════════════════════════════════════════════════
-        REPLACE each card below with the actual objectives
-        provided by your client.
-        Add or remove cards as needed (the grid adjusts).
-        ════════════════════════════════════════════════════
-      -->
-
       <div class="obj-card fade-in">
         <div class="obj-num">01</div>
         <h4>Environmental Monitoring and Assessment</h4>
         <p>To monitor and evaluate the quality of water and air in urban, peri-urban, and rural areas, identifying pollution sources and trends.</p>
       </div>
-
-      <div class="obj-card fade-in">
+      <div class="obj-card fade-in fade-in-delay-1">
         <div class="obj-num">02</div>
         <h4>Research and Development</h4>
         <p>To conduct cutting-edge research on air and water pollution, exploring innovative technologies for mitigation and management.</p>
       </div>
-
-      <div class="obj-card fade-in">
+      <div class="obj-card fade-in fade-in-delay-2">
         <div class="obj-num">03</div>
         <h4>Capacity Building</h4>
         <p>To organize training programs, workshops, and seminars for students, researchers, policymakers, and industry professionals.</p>
       </div>
-
       <div class="obj-card fade-in">
         <div class="obj-num">04</div>
         <h4>Community Engagement</h4>
         <p>To create awareness about water and air quality issues among the public, promoting sustainable behaviour and practices.</p>
       </div>
-
-      <div class="obj-card fade-in">
+      <div class="obj-card fade-in fade-in-delay-1">
         <div class="obj-num">05</div>
         <h4>Policy Support</h4>
         <p>To provide scientific data and recommendations for formulating evidence-based environmental policies and regulations.</p>
       </div>
-
-      <!-- Add more <div class="obj-card"> blocks as needed -->
-
+      <div class="obj-card fade-in fade-in-delay-2" style="border:2px dashed var(--border);background:var(--off-white);display:flex;align-items:center;justify-content:center;text-align:center;">
+        <div>
+          <div style="font-size:1.8rem;margin-bottom:8px;opacity:0.3;">+</div>
+          <p style="font-size:0.82rem;color:var(--text-light);">More objectives<br/>to be added</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     ACTIVITIES & SERVICES
-══════════════════════════════════════════ -->
+<!-- ACTIVITIES & SERVICES (preview + link to research page) -->
 <section id="activities" class="section-pad bg-off-white">
   <div class="container">
     <p class="section-label">What We Do</p>
     <h2 class="section-title">Activities &amp; Services</h2>
     <div class="section-divider"></div>
-
-    <!-- Tabs -->
     <div class="activities-tabs">
       <button class="tab-btn active" data-tab="tab-activities">Activities</button>
       <button class="tab-btn" data-tab="tab-services">Services</button>
-      <!-- Add more tabs as needed, e.g. Consultancy, Training -->
     </div>
-
-    <!-- Activities Panel -->
     <div class="tab-panel active" id="tab-activities">
       <div class="services-grid">
-        <!--
-          ════════════════════════════════════════════════════
-          REPLACE each card with actual Activities from client.
-          Change the emoji icon to something relevant, or use
-          an <img> tag instead.
-          ════════════════════════════════════════════════════
-        -->
         <div class="service-card fade-in">
+          <span class="service-icon">🌿</span>
           <h4>Environmental Research</h4>
           <p>Conducting interdisciplinary research in environmental science, pollution control, climate change, waste management, and sustainability.</p>
         </div>
-        <div class="service-card fade-in">
+        <div class="service-card fade-in fade-in-delay-1">
+          <span class="service-icon">🦋</span>
           <h4>Ecological Studies</h4>
           <p>Biodiversity assessment, ecosystem monitoring, ecological surveys, conservation studies, and environmental impact assessment.</p>
         </div>
-        <div class="service-card fade-in">
-          <h4>Student Training and Internship Support</h4>
+        <div class="service-card fade-in fade-in-delay-2">
+          <span class="service-icon">🎓</span>
+          <h4>Student Training &amp; Internship Support</h4>
           <p>Offering hands-on training, laboratory exposure, research guidance, dissertation support, and internships for students.</p>
         </div>
         <div class="service-card fade-in">
+          <span class="service-icon">🤝</span>
           <h4>Collaborative Projects</h4>
           <p>Promoting collaborations with industries, NGOs, research institutions, and government bodies for sustainable environmental solutions.</p>
         </div>
-        <div class="service-card fade-in">
-          <h4>Awareness and Outreach Programs</h4>
+        <div class="service-card fade-in fade-in-delay-1">
+          <span class="service-icon">📢</span>
+          <h4>Awareness &amp; Outreach Programs</h4>
           <p>Organizing workshops, seminars, field studies, plantation drives, sustainability campaigns, and environmental awareness activities.</p>
         </div>
-        <!-- Add more cards as needed -->
+        <div class="service-card fade-in fade-in-delay-2" style="display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,var(--navy),var(--teal));border:none;color:white;">
+          <div>
+            <div style="font-size:1.5rem;margin-bottom:10px;">📄</div>
+            <h4 style="color:white;margin-bottom:8px;">View Full Details</h4>
+            <a href="research.html" style="display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);color:white;padding:7px 16px;border-radius:20px;font-size:0.82rem;font-weight:500;transition:all 0.28s ease;">Research Page →</a>
+          </div>
+        </div>
       </div>
     </div>
-
-    <!-- Services Panel -->
     <div class="tab-panel" id="tab-services">
       <div class="services-grid">
-        <!--
-          REPLACE each card with actual Services from client.
-        -->
         <div class="service-card fade-in">
+          <span class="service-icon">💧</span>
           <h4>Water Quality Analysis</h4>
           <p>Assessment of physical, chemical, and biological parameters of drinking water, groundwater, surface water, wastewater, and industrial effluents.</p>
         </div>
-        <div class="service-card fade-in">
+        <div class="service-card fade-in fade-in-delay-1">
+          <span class="service-icon">💨</span>
           <h4>Air Quality Monitoring</h4>
           <p>Monitoring and analysis of indoor and outdoor air pollutants, particulate matter, gaseous pollutants, and environmental exposure assessment.</p>
         </div>
-        <div class="service-card fade-in">
+        <div class="service-card fade-in fade-in-delay-2">
+          <span class="service-icon">🔬</span>
           <h4>Consultancy and Testing Services</h4>
           <p>Providing analytical and consultancy support to industries, organizations, researchers, and government agencies for environmental monitoring and compliance.</p>
         </div>
         <div class="service-card fade-in">
+          <span class="service-icon">📊</span>
           <h4>Data Analysis and Reporting</h4>
           <p>Preparation of scientific reports, environmental data interpretation, and documentation for research and regulatory purposes.</p>
         </div>
-        <!-- Add more cards as needed -->
       </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════
-     FACULTY
-══════════════════════════════════════════ -->
-<section id="faculty" class="section-pad">
-  <div class="container">
-    <p class="section-label">Meet the Team</p>
-    <h2 class="section-title">Faculty Introduction</h2>
-    <div class="section-divider"></div>
-    <p class="section-intro">
-      [Optional introductory sentence about the faculty team — can be removed.]
-    </p>
-
-    <div class="faculty-grid">
-      <!--
-        ════════════════════════════════════════════════════
-        For each faculty member:
-        1. Replace the placeholder div with:
-           <img src="images/faculty/[name].jpg" alt="[Name]" />
-        2. Fill in Name, Designation, and Department.
-        
-        To ADD a faculty member: duplicate one <div class="faculty-card"> block.
-        To REMOVE one: delete the block.
-        ════════════════════════════════════════════════════
-      -->
-
-      <!-- Faculty Member 1 -->
-      <div class="faculty-card fade-in">
-        <div class="faculty-img-wrap">
-          <!--
-            Replace below with:
-            <img src="images/faculty/faculty-1.jpg" alt="[Name]" />
-          -->
-          <div class="faculty-img-placeholder">👤</div>
-        </div>
-        <div class="faculty-info">
-          <h4>Dr.Indrani Ghosh</h4>
-          <p class="designation">[Designation / Title]</p>
-          <p class="dept">[Department / Specialisation]</p>
-        </div>
-      </div>
-
-      <!-- Faculty Member 2 -->
-      <div class="faculty-card fade-in">
-        <div class="faculty-img-wrap">
-          <div class="faculty-img-placeholder">👤</div>
-        </div>
-        <div class="faculty-info">
-          <h4>Dr. Prantik Banerjee</h4>
-          <p class="designation">[Designation / Title]</p>
-          <p class="dept">[Department / Specialisation]</p>
-        </div>
-      </div>
-
-      <!-- Faculty Member 3 -->
-      <div class="faculty-card fade-in">
-        <div class="faculty-img-wrap">
-          <div class="faculty-img-placeholder">👤</div>
-        </div>
-        <div class="faculty-info">
-          <h4>Dr. Tanmoy Kumar Dey</h4>
-          <p class="designation">[Designation / Title]</p>
-          <p class="dept">[Department / Specialisation]</p>
-        </div>
-      </div>
-
-      <!-- Faculty Member 4 -->
-      <div class="faculty-card fade-in">
-        <div class="faculty-img-wrap">
-          <div class="faculty-img-placeholder">👤</div>
-        </div>
-        <div class="faculty-info">
-          <h4>Dr. Vijoyeta Chakraborty</h4>
-          <p class="designation">[Designation / Title]</p>
-          <p class="dept">[Department / Specialisation]</p>
-        </div>
-      </div>
-
-      <div class="faculty-card fade-in">
-        <div class="faculty-img-wrap">
-          <div class="faculty-img-placeholder">👤</div>
-        </div>
-        <div class="faculty-info">
-          <h4>Dr. Moumita Chakraborty</h4>
-          <p class="designation">[Designation / Title]</p>
-          <p class="dept">[Department / Specialisation]</p>
-        </div>
-      </div>
-      <div class="faculty-card fade-in">
-        <div class="faculty-img-wrap">
-          <div class="faculty-img-placeholder">👤</div>
-        </div>
-        <div class="faculty-info">
-          <h4>Dr. Ritam Bhattacharya</h4>
-          <p class="designation">[Designation / Title]</p>
-          <p class="dept">[Department / Specialisation]</p>
-        </div>
-      </div>
-      <div class="faculty-card fade-in">
-        <div class="faculty-img-wrap">
-          <div class="faculty-img-placeholder">👤</div>
-        </div>
-        <div class="faculty-info">
-          <h4>Ms. Aditi Ghosh Hazra</h4>
-          <p class="designation">[Designation / Title]</p>
-          <p class="dept">[Department / Specialisation]</p>
-        </div>
-      </div>
-      <div class="faculty-card fade-in">
-        <div class="faculty-img-wrap">
-          <div class="faculty-img-placeholder">👤</div>
-        </div>
-        <div class="faculty-info">
-          <h4>Ms. Rupa Chaudhuri</h4>
-          <p class="designation">[Designation / Title]</p>
-          <p class="dept">[Department / Specialisation]</p>
-        </div>
-      </div>
-
-      <!-- Add more faculty cards as needed by duplicating the block above -->
-
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     RESEARCH ADVISORY COMMITTEE
-══════════════════════════════════════════ -->
-<section id="advisory" class="section-pad bg-sky">
-  <div class="container">
-    <p class="section-label">Expert Guidance</p>
-    <h2 class="section-title">Research Advisory Committee</h2>
-    <div class="section-divider"></div>
-    <p class="section-intro">
-      [Optional introductory line about the advisory committee — can be removed.]
-    </p>
-
-    <div class="advisory-grid">
-      <!--
-        ════════════════════════════════════════════════════
-        For each advisory committee member:
-        1. Optionally replace placeholder with:
-           <img src="images/advisory/[name].jpg" alt="[Name]" class="advisory-avatar" />
-        2. Fill in Name, Role, and Organisation/Affiliation.
-        
-        Photos are optional for advisory members — the layout
-        works with or without them.
-        ════════════════════════════════════════════════════
-      -->
-
-      <!-- Advisory Member 1 -->
-      <div class="advisory-card fade-in">
-        <!--
-          Replace with image if available:
-          <img src="images/advisory/member-1.jpg" alt="[Name]" class="advisory-avatar" />
-        -->
-        <div class="advisory-avatar-placeholder">👤</div>
-        <div class="advisory-info">
-          <h4>[Full Name]</h4>
-          <p class="ac-role">[Role / Position in Committee]</p>
-          <p class="ac-org">[Designation], [Organisation / Institution], [City/State]</p>
-        </div>
-      </div>
-
-      <!-- Advisory Member 2 -->
-      <div class="advisory-card fade-in">
-        <div class="advisory-avatar-placeholder">👤</div>
-        <div class="advisory-info">
-          <h4>[Full Name]</h4>
-          <p class="ac-role">[Role / Position in Committee]</p>
-          <p class="ac-org">[Designation], [Organisation / Institution], [City/State]</p>
-        </div>
-      </div>
-
-      <!-- Advisory Member 3 -->
-      <div class="advisory-card fade-in">
-        <div class="advisory-avatar-placeholder">👤</div>
-        <div class="advisory-info">
-          <h4>[Full Name]</h4>
-          <p class="ac-role">[Role / Position in Committee]</p>
-          <p class="ac-org">[Designation], [Organisation / Institution], [City/State]</p>
-        </div>
-      </div>
-
-      <!-- Advisory Member 4 -->
-      <div class="advisory-card fade-in">
-        <div class="advisory-avatar-placeholder">👤</div>
-        <div class="advisory-info">
-          <h4>[Full Name]</h4>
-          <p class="ac-role">[Role / Position in Committee]</p>
-          <p class="ac-org">[Designation], [Organisation / Institution], [City/State]</p>
-        </div>
-      </div>
-
-      <!-- Advisory Member 5 -->
-      <div class="advisory-card fade-in">
-        <div class="advisory-avatar-placeholder">👤</div>
-        <div class="advisory-info">
-          <h4>[Full Name]</h4>
-          <p class="ac-role">[Role / Position in Committee]</p>
-          <p class="ac-org">[Designation], [Organisation / Institution], [City/State]</p>
-        </div>
-      </div>
-
-      <!-- Advisory Member 6 -->
-      <div class="advisory-card fade-in">
-        <div class="advisory-avatar-placeholder">👤</div>
-        <div class="advisory-info">
-          <h4>[Full Name]</h4>
-          <p class="ac-role">[Role / Position in Committee]</p>
-          <p class="ac-org">[Designation], [Organisation / Institution], [City/State]</p>
-        </div>
-      </div>
-
-      <!-- Add more advisory member cards as needed -->
-
-    </div>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════
-     INSTRUMENTS
-══════════════════════════════════════════ -->
+<!-- INSTRUMENTS -->
 <section id="instruments" class="section-pad">
   <div class="container">
     <p class="section-label">Laboratory Infrastructure</p>
     <h2 class="section-title">Instruments Used in the Centre</h2>
     <div class="section-divider"></div>
-    <p class="section-intro">
-      [Optional introductory line about the laboratory equipment — can be removed.]
-    </p>
-
     <div class="instruments-grid">
-      <!--
-        ════════════════════════════════════════════════════
-        For each instrument:
-        1. Optionally replace placeholder with:
-           <img src="images/instruments/[instrument].jpg" alt="[Name]" />
-        2. Fill in instrument name, description, and category badge.
-        ════════════════════════════════════════════════════
-      -->
-
-      <!-- Instrument 1 -->
       <div class="instrument-card fade-in">
         <div class="instrument-img">
-          <!--
-            Replace with image if available:
-            <img src="images/instruments/instrument-1.jpg" alt="[Instrument Name]" />
-          -->
+          <!-- <img src="images/instruments/aas.jpg" alt="AAS" /> -->
           <div class="instrument-img-placeholder">🔬</div>
         </div>
         <div class="instrument-body">
           <h4>Atomic Absorption Spectrophotometer</h4>
-          <p>The Atomic Absorption Spectrophotometer (AAS) at the Central Instrumentation Centre (CIC), Room No. AU2-106, is used for the quantitative analysis of trace and heavy metals in environmental samples. It supports research in water and air quality assessment, pollution monitoring, and the detection of toxic metal contaminants in environmental systems.</p>
+          <p>Used for quantitative analysis of trace and heavy metals in environmental samples. Supports water and air quality assessment and toxic metal detection.</p>
           <span class="instrument-badge">Environmental Monitoring</span>
         </div>
       </div>
-
-      <!-- Instrument 2 -->
-      <div class="instrument-card fade-in">
+      <div class="instrument-card fade-in fade-in-delay-1">
         <div class="instrument-img">
           <div class="instrument-img-placeholder">⚗️</div>
         </div>
         <div class="instrument-body">
           <h4>UV-Vis Double Beam Spectrophotometer</h4>
-          <p>The UV-Vis Double Beam Spectrophotometer at the Central Instrumentation Centre (CIC), Room No. AU2-107, is used for the quantitative analysis of various chemical species in environmental samples. It supports research in water quality assessment, pollutant detection, and the study of chemical processes in aquatic systems.</p>
+          <p>Used for quantitative analysis of chemical species in environmental samples. Supports water quality assessment, pollutant detection, and aquatic system studies.</p>
           <span class="instrument-badge">Environmental Monitoring</span>
         </div>
       </div>
-
-      <!-- Instrument 3 -->
-      <div class="instrument-card fade-in">
+      <div class="instrument-card fade-in fade-in-delay-2">
         <div class="instrument-img">
-          <div class="instrument-img-placeholder">📡</div>
+          <div class="instrument-img-placeholder">♨️</div>
         </div>
         <div class="instrument-body">
           <h4>Autoclave</h4>
-          <p>The Autoclave is a sterilization instrument used to decontaminate laboratory media, glassware, and biological materials using high-pressure saturated steam. It supports research in water quality analysis, environmental microbiology, and microbial studies by ensuring aseptic conditions and maintaining biosafety standards.</p>
-          <span class="instrument-badge">Laboratoy Equipment</span>
+          <p>Sterilization instrument using high-pressure steam to decontaminate laboratory media, glassware, and biological materials, ensuring aseptic conditions.</p>
+          <span class="instrument-badge">Laboratory Equipment</span>
         </div>
       </div>
-
-      <!-- Instrument 4 -->
       <div class="instrument-card fade-in">
         <div class="instrument-img">
           <div class="instrument-img-placeholder">🧫</div>
         </div>
         <div class="instrument-body">
           <h4>BOD Incubator</h4>
-          <p>The BOD Incubator is used to maintain controlled-temperature conditions for the incubation of environmental and microbiological samples. It supports research in water quality assessment, wastewater treatment evaluation, and the analysis of organic pollution through biochemical oxygen demand studies.</p>
+          <p>Maintains controlled-temperature conditions for environmental and microbiological sample incubation. Supports BOD studies and organic pollution analysis.</p>
           <span class="instrument-badge">Laboratory Equipment</span>
         </div>
       </div>
-
-      <!-- Instrument 5 -->
-      <div class="instrument-card fade-in">
+      <div class="instrument-card fade-in fade-in-delay-1">
         <div class="instrument-img">
-          <div class="instrument-img-placeholder">💡</div>
+          <div class="instrument-img-placeholder">⚙️</div>
         </div>
         <div class="instrument-body">
-          <h4>COD digester</h4>
-          <p>The COD Digester is used for the digestion and analysis of organic pollutants in water and wastewater samples. It supports research in water quality assessment, wastewater treatment monitoring, and the evaluation of pollution load in environmental systems.</p>
+          <h4>COD Digester</h4>
+          <p>Used for digestion and analysis of organic pollutants in water and wastewater samples. Supports COD determination and pollution load evaluation.</p>
           <span class="instrument-badge">Laboratory Equipment</span>
         </div>
       </div>
-
-      <!-- Instrument 6 -->
-      <div class="instrument-card fade-in">
+      <div class="instrument-card fade-in fade-in-delay-2">
         <div class="instrument-img">
-          <div class="instrument-img-placeholder">🌡️</div>
+          <div class="instrument-img-placeholder">🌀</div>
         </div>
         <div class="instrument-body">
           <h4>Jar Test Apparatus</h4>
-          <p>The Jar Test Apparatus is used to evaluate coagulation and flocculation processes in water and wastewater treatment. It supports research in treatment optimization, pollution control, and the development of efficient and sustainable water treatment strategies</p>
-          <span class="instrument-badge">[Category]</span>
+          <p>Evaluates coagulation and flocculation processes in water and wastewater treatment. Supports treatment optimization and sustainable water management strategies.</p>
+          <span class="instrument-badge">Water Treatment</span>
         </div>
       </div>
-
-      <!-- Instrument 7 -->
       <div class="instrument-card fade-in">
         <div class="instrument-img">
-          <div class="instrument-img-placeholder">🔭</div>
+          <div class="instrument-img-placeholder">💨</div>
         </div>
         <div class="instrument-body">
           <h4>Laminar Air Flow Cabinet</h4>
-          <p>The Laminar Air Flow Cabinet provides a sterile environment for handling sensitive biological samples and equipment. It supports research in microbiology, biotechnology, and related fields by maintaining contamination-free conditions during experimental procedures.</p>
+          <p>Provides a sterile environment for handling sensitive biological samples. Supports microbiology and biotechnology research by maintaining contamination-free conditions.</p>
           <span class="instrument-badge">Laboratory Equipment</span>
         </div>
       </div>
-
-      <!-- Instrument 8 -->
-
-
-      <!-- Add more instrument cards as needed -->
-
+      <div class="instrument-card fade-in fade-in-delay-1" style="border:2px dashed var(--border);background:var(--off-white);">
+        <div class="instrument-img" style="background:transparent;display:flex;align-items:center;justify-content:center;">
+          <div style="text-align:center;padding:20px;opacity:0.4;">
+            <div style="font-size:2rem;margin-bottom:8px;">+</div>
+            <p style="font-size:0.78rem;color:var(--text-light);">More instruments<br/>to be added</p>
+          </div>
+        </div>
+        <div class="instrument-body">
+          <h4 style="color:var(--text-light);">Additional Instruments</h4>
+          <p style="font-size:0.78rem;">Further laboratory equipment details will be updated here.</p>
+          <span class="placeholder-badge" style="margin-top:8px;">Coming Soon</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     PATENTS — PLACEHOLDER
-     (Leave empty until client provides data)
-══════════════════════════════════════════ -->
+<!-- PATENTS PLACEHOLDER -->
 <section id="patents" class="section-pad bg-off-white">
   <div class="container">
     <p class="section-label">Intellectual Property</p>
@@ -776,9 +454,7 @@
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     CERTIFICATES / ACCREDITATIONS — PLACEHOLDER
-══════════════════════════════════════════ -->
+<!-- CERTIFICATES PLACEHOLDER -->
 <section id="certificates" class="section-pad">
   <div class="container">
     <p class="section-label">Accreditation &amp; Recognition</p>
@@ -793,9 +469,7 @@
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     PUBLICATIONS — PLACEHOLDER
-══════════════════════════════════════════ -->
+<!-- PUBLICATIONS PLACEHOLDER -->
 <section id="publications" class="section-pad bg-off-white">
   <div class="container">
     <p class="section-label">Academic Output</p>
@@ -810,181 +484,106 @@
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     LEADERSHIP / CONTACT
-══════════════════════════════════════════ -->
+<!-- CONTACT / LEADERSHIP -->
 <section id="contact" class="section-pad bg-sky">
   <div class="container text-center">
-    <p class="section-label">Leadership</p>
+    <p class="section-label" style="justify-content:center;">Leadership</p>
     <h2 class="section-title">Director &amp; Member Secretary</h2>
-    <div class="section-divider" style="margin:0 auto 0.5rem;"></div>
-    <p class="section-intro" style="margin:0 auto;">
-      For queries, collaborations, or general information, please reach out to the centre leadership.
-    </p>
-
+    <div class="section-divider" style="margin:0 auto 12px;"></div>
+    <p class="section-intro" style="margin:0 auto 0;">For queries, collaborations, or general information, please reach out to the centre leadership.</p>
     <div class="leadership-grid">
-
-      <!-- DIRECTOR -->
       <div class="leader-card fade-in">
-        <!--
-          Replace placeholder with director's photo:
-          <img src="images/director.jpg" alt="Director Name" class="leader-photo" />
-        -->
+        <!-- <img src="images/director.jpg" alt="Director" class="leader-photo" /> -->
         <div class="leader-photo-placeholder">👤</div>
         <div class="leader-info">
           <h3>[Director Full Name]</h3>
           <p class="role">Director</p>
-          <!-- Replace with actual contact details -->
           <div class="leader-contact">
-            <a href="tel:[phone]">
-              <span class="ic">📞</span> [Phone Number]
-            </a>
-            <a href="mailto:[email]">
-              <span class="ic">✉️</span> [Email Address]
-            </a>
-            <a href="#">
-              <span class="ic">🏛️</span> [Designation / Department]
-            </a>
+            <a href="tel:[phone]"><span>📞</span> [Phone Number]</a>
+            <a href="mailto:[email]"><span>✉️</span> [Email Address]</a>
+            <a href="#"><span>🏛️</span> [Designation / Department]</a>
           </div>
         </div>
       </div>
-
-      <!-- MEMBER SECRETARY -->
-      <div class="leader-card fade-in">
-        <!--
-          Replace placeholder with member secretary's photo:
-          <img src="images/secretary.jpg" alt="Member Secretary Name" class="leader-photo" />
-        -->
+      <div class="leader-card fade-in fade-in-delay-1">
+        <!-- <img src="images/secretary.jpg" alt="Member Secretary" class="leader-photo" /> -->
         <div class="leader-photo-placeholder">👤</div>
         <div class="leader-info">
           <h3>[Member Secretary Full Name]</h3>
           <p class="role">Member Secretary</p>
-          <!-- Replace with actual contact details -->
           <div class="leader-contact">
-            <a href="tel:[phone]">
-              <span class="ic">📞</span> [Phone Number]
-            </a>
-            <a href="mailto:[email]">
-              <span class="ic">✉️</span> [Email Address]
-            </a>
-            <a href="#">
-              <span class="ic">🏛️</span> [Designation / Department]
-            </a>
+            <a href="tel:[phone]"><span>📞</span> [Phone Number]</a>
+            <a href="mailto:[email]"><span>✉️</span> [Email Address]</a>
+            <a href="#"><span>🏛️</span> [Designation / Department]</a>
           </div>
         </div>
       </div>
-
     </div>
-
-    <!-- Address block -->
-    <div class="fade-in" style="margin-top:40px; padding:32px; background:white; border-radius:12px; border:1px solid var(--border); max-width:600px; margin-left:auto; margin-right:auto; box-shadow:var(--shadow-sm);">
-      <h4 style="color:var(--navy);margin-bottom:16px;font-family:var(--font-display);">Postal Address</h4>
-      <p style="line-height:2;">
+    <div class="fade-in" style="margin-top:40px;padding:32px;background:white;border-radius:var(--radius-xl);border:1px solid var(--border);max-width:560px;margin-left:auto;margin-right:auto;box-shadow:var(--shadow-sm);">
+      <h4 style="color:var(--navy);margin-bottom:14px;font-family:var(--font-display);">Postal Address</h4>
+      <p style="line-height:2.1;">
         Centre of Water and Air Analysis<br />
-        <!-- Replace with actual address -->
         [Department / Building Name]<br />
-        [University / Institution Name]<br />
-        [Street Address]<br />
-        [City, State — PIN Code]<br />
-        India
+        Adamas University<br />
+        Barasat–Barrackpore Road, Kolkata — 700 126<br />
+        West Bengal, India
       </p>
     </div>
-
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════
-     FOOTER
-══════════════════════════════════════════ -->
+<!-- FOOTER -->
 <footer id="footer">
   <div class="container">
     <div class="footer-grid">
-
-      <!-- Brand / About column -->
       <div class="footer-brand">
         <div class="footer-logo">
-          <!-- Replace with logo image: <img src="images/logo-white.png" alt="Logo" /> -->
-          <div style="width:48px;height:48px;background:rgba(255,255,255,0.1);border-radius:8px;display:flex;align-items:center;justify-content:center;">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="1.5">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
-              <path d="M12 6c-2 2-3 4-3 6s1 4 3 6"/><path d="M12 6c2 2 3 4 3 6s-1 4-3 6"/><path d="M6 12h12"/>
-            </svg>
+          <div style="width:44px;height:44px;background:rgba(255,255,255,0.08);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6c-2 2-3 4-3 6s1 4 3 6"/><path d="M12 6c2 2 3 4 3 6s-1 4-3 6"/><path d="M6 12h12"/></svg>
           </div>
           <div class="footer-logo-text">
             <span class="fn">Centre of Water &amp; Air Analysis</span>
-            <!-- Replace with your university name -->
-            <span class="fs">[University / Institution Name]</span>
+            <span class="fs">Adamas University, Kolkata</span>
           </div>
         </div>
-        <p>
-          Dedicated to advanced research and precise analysis of water and air quality, contributing to environmental protection and public health across the region and beyond.
-        </p>
+        <p>Dedicated to advanced research and precise analysis of water and air quality, contributing to environmental protection and public health across the region and beyond.</p>
       </div>
-
-      <!-- Quick Links -->
       <div class="footer-col">
         <h5>Quick Links</h5>
         <ul>
-          <li><a href="#home">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="#about">About the Centre</a></li>
           <li><a href="#vision-mission">Vision &amp; Mission</a></li>
           <li><a href="#objectives">Objectives</a></li>
-          <li><a href="#activities">Activities &amp; Services</a></li>
+          <li><a href="research.html">Activities &amp; Services</a></li>
         </ul>
       </div>
-
-      <!-- Resources -->
       <div class="footer-col">
         <h5>Resources</h5>
         <ul>
-          <li><a href="#faculty">Faculty</a></li>
-          <li><a href="#advisory">Advisory Committee</a></li>
+          <li><a href="team.html">Faculty</a></li>
+          <li><a href="team.html#advisory">Advisory Committee</a></li>
           <li><a href="#instruments">Instruments</a></li>
           <li><a href="#patents">Patents</a></li>
           <li><a href="#certificates">Certificates</a></li>
           <li><a href="#publications">Publications</a></li>
         </ul>
       </div>
-
-      <!-- Contact -->
       <div class="footer-col">
         <h5>Contact</h5>
-        <div class="contact-line">
-          <span>📍</span>
-          <!-- Replace with actual address -->
-          <span>[University / Institution Name], [City, State — PIN]</span>
-        </div>
-        <div class="contact-line">
-          <span>📞</span>
-          <a href="tel:[phone]">[Director Phone]</a>
-        </div>
-        <div class="contact-line">
-          <span>✉️</span>
-          <a href="mailto:[email]">[Director Email]</a>
-        </div>
-        <div class="contact-line">
-          <span>🕐</span>
-          <span>Mon – Fri: 10:00 AM – 5:00 PM IST</span>
-        </div>
+        <div class="contact-line"><span>📍</span><span>Adamas University, Kolkata — 700 126, WB</span></div>
+        <div class="contact-line"><span>📞</span><a href="tel:[phone]">[Director Phone]</a></div>
+        <div class="contact-line"><span>✉️</span><a href="mailto:[email]">[Director Email]</a></div>
+        <div class="contact-line"><span>🕐</span><span>Mon – Fri: 10:00 AM – 5:00 PM IST</span></div>
       </div>
-
     </div>
   </div>
-
   <div class="footer-bar">
-    <p>
-      &copy; <span id="footer-year"></span>
-      Centre of Water and Air Analysis,
-      <!-- Replace with your university name and URL -->
-      <a href="#" target="_blank">[University / Institution Name]</a>.
-      All rights reserved.
-    </p>
+    <p>&copy; <span id="footer-year"></span> Centre of Water and Air Analysis, <a href="https://adamasuniversity.ac.in" target="_blank">Adamas University</a>. All rights reserved.</p>
   </div>
 </footer>
 
-<!-- Back to top -->
-<button id="back-top" aria-label="Back to top">&#8679;</button>
-
+<button id="back-top" aria-label="Back to top">↑</button>
 <script src="js/main.js"></script>
 </body>
 </html>
