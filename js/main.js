@@ -217,8 +217,15 @@ const facultyData = {
     email: '[prantik.email@adamasuniversity.ac.in]',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
-    bio: '[Add biography here.]',
-    research: ['[Research Area 1]', '[Research Area 2]'],
+    bio: `
+    <p>Dr. Prantik Banerjee is an environmental scientist and sustainability researcher specializing in wastewater treatment, environmental pollution monitoring, and climate risk assessment. He completed his Ph.D. from the University of Calcutta and has been serving as Assistant Professor since 2019.</p>
+    <br>
+    <p>His research focuses on low-cost wastewater treatment technologies using ZnO nanocrystals, photocatalytic degradation systems, and environmental analytical methods for NABL-accredited laboratories. He has substantial professional experience as Project Scientist at the West Bengal Pollution Control Board under the World Bank-assisted Capacity Building for Industrial Pollution Management Project.</p>
+    <br>
+    <p>Dr. Banerjee also holds advanced qualifications in ESG and Sustainability from Annamalai University and Climate Risk certification from the Global Association of Risk Professionals. He is actively engaged in climate resilience and sustainability research, including policy-oriented landscape studies in West Bengal.</p>
+    <br>
+    <p>He currently leads a SEED Research Scheme-funded project on algal biochar/ZnO composite photocatalysts for textile dye degradation and self-degrading polymer films, while also contributing to NEP 2020-based curriculum development in Environmental Science and Sustainability.</p>`,
+    research: ['Wastewater Treatment Technologies', 'Nanotechnology-based Photocatalysis', 'ESG & Sustainability', 'Climate Risk & Resilience', 'Environmental Analytical Techniques'],
     education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
   },
   'tanmoy-dey': {
@@ -227,8 +234,13 @@ const facultyData = {
     email: '[tanmoy.email@adamasuniversity.ac.in]',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
-    bio: '[Add biography here.]',
-    research: ['[Research Area 1]', '[Research Area 2]'],
+    bio: `
+    <p>Dr. Tanmoy Kumar Dey is an environmental microbiologist and biotechnology researcher working at the interface of environmental health, microbiology, nanobiotechnology, and waste valorisation. He completed his Ph.D. from the University of Calcutta and pursued Post-Doctoral research at the ICMR-National Institute of Cholera and Enteric Diseases. He has been serving as Assistant Professor since 2021.</p>
+    <br>
+    <p>His research interests include nutraceutical formulation using nanobiotechnology, environmental microbiology, microbial biotransformation processes, epidemiology, environmental health, and sustainable waste valorisation. He also works extensively on ecological field investigations integrated with socio-economic community surveys.</p>
+    <br>
+    <p>Dr. Dey is Principal Investigator of a SEED Research Scheme-funded project on extraction and purification of lutein esters from marigold petals and their influence on gut bacterial growth kinetics. In addition to his research contributions, he is actively involved in curriculum development and implementation of Environmental Science and Sustainability programmes under NEP 2020.</p>`,
+    research: ['Environmental Microbiology', 'Nanobiotechnology & Nutraceuticals', 'Waste Valorisation', 'Epidemiology & Environmental Health', 'Community-based Ecological Studies'],
     education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
   },
   'vijoyeta-chakraborty': {
@@ -237,8 +249,11 @@ const facultyData = {
     email: '[vijoyeta.email@adamasuniversity.ac.in]',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
-    bio: '[Add biography here.]',
-    research: ['[Research Area 1]', '[Research Area 2]'],
+    bio: `
+    <p>Dr. Vijoyeta Chakraborty is an environmental scientist specializing in nanotechnology-based environmental applications, wastewater treatment technologies, and air pollution management. She completed her Ph.D. from Jadavpur University and has been serving as Assistant Professor since 2024.</p>
+    <br>
+    <p>Her research expertise includes nanotechnology-enabled wastewater treatment systems and climate change adaptation strategies. Prior to joining academia, she worked as Senior Project Associate under the National Clean Air Programme at the West Bengal Pollution Control Board, contributing to air quality monitoring and pollution management initiatives.</p>`,
+    research: ['Nanotechnology in Wastewater Treatment', 'Air Pollution Management', 'Environmental Monitoring', 'Climate Change Adaptation'],
     education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
   },
   'moumita-chakraborty': {
@@ -247,8 +262,11 @@ const facultyData = {
     email: '[moumita.email@adamasuniversity.ac.in]',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
-    bio: '[Add biography here.]',
-    research: ['[Research Area 1]', '[Research Area 2]'],
+    bio: `
+    <p>Dr. Moumita Chakraborty is an environmental scientist with expertise in waste management, environmental safety, and sustainability studies. She completed her Ph.D. from G.B. Pant University of Agriculture and Technology and has been serving as Assistant Professor since 2024.</p>
+    <br>
+    <p>Her research primarily focuses on e-waste bioremediation, waste management systems, ESG practices, and Environmental Safety and Health (ESH). She is also actively involved in research and academic activities related to climate change adaptation and sustainable environmental management</p>`,
+    research: ['E-waste Bioremediation', 'Waste Management', 'ESG & Sustainability', 'Environmental Safety & Health', 'Climate Change Adaptation'],
     education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
   },
   'ritam-bhattacharya': {
@@ -257,8 +275,11 @@ const facultyData = {
     email: '[ritam.email@adamasuniversity.ac.in]',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
-    bio: '[Add biography here.]',
-    research: ['[Research Area 1]', '[Research Area 2]'],
+    bio: `
+    <p>Dr. Ritam Bhattacharya is an ecologist and biodiversity researcher with expertise in agroecology, ecosystem services, pollination biology, and conservation science. He completed his Ph.D. from the University of Calcutta and pursued Post-Doctoral research through Indo-Norwegian collaboration programmes and the EU Horizon 2020 programme in association with the Norwegian University of Life Sciences and the University of Malmö. He has been serving as Assistant Professor since 2026.</p>
+    <br>
+    <p>His research interests include agroecology, biodiversity management, insect ecology, ecological modelling, and landscape-level environmental research. He is also actively engaged in community participation and action-learning pedagogy approaches for environmental education and sustainability practices.</p>`,
+    research: ['Agroecology & Ecosystem Services', 'Pollination Biology', 'Biodiversity Conservation', 'Ecological Modelling', 'Community-based Environmental Research'],
     education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
   },
   'aditi-ghosh-hazra': {
@@ -267,8 +288,11 @@ const facultyData = {
     email: '[aditi.email@adamasuniversity.ac.in]',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
-    bio: '[Add biography here.]',
-    research: ['[Research Area 1]', '[Research Area 2]'],
+    bio: `
+    <p>Ms. Aditi Ghosh Hazra is a Teaching Assistant in Environmental Science with academic specialization in biodiversity, animal behaviour, and community-based ecological research. She completed her M.Sc. in Environmental Science from the University of Calcutta and has been associated with the department since 2024.</p>
+    <br>
+    <p>Her interests include ecological field studies, biodiversity assessment, human–animal interactions, and community-oriented environmental investigations.</p>`,
+    research: ['Ecological Field Studies', 'Biodiversity & Conservation', 'Animal Behaviour', 'Human–Animal Interactions'],
     education: ['[M.Sc. — University, Year]', '[B.Sc. — University, Year]']
   },
   'rupa-chaudhuri': {
@@ -277,8 +301,11 @@ const facultyData = {
     email: '[rupa.email@adamasuniversity.ac.in]',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
-    bio: '[Add biography here.]',
-    research: ['[Research Area 1]', '[Research Area 2]'],
+    bio: `
+    <p>Ms. Rupa Chaudhuri is a Teaching Assistant in Environmental Science with research interests in environmental health and pollution-related disease linkages. She completed her M.Sc. in Environmental Science from the University of Calcutta and has been associated with the department since 2024.</p>
+    <br>
+    <p>Her academic and research interests focus on the impacts of environmental pollution on human health, disease physiology, and environmental health risk assessment.</p>`,
+    research: ['Environmental Health', 'Pollution & Human Health', 'Disease Physiology', 'Environmental Risk Assessment'],
     education: ['[M.Sc. — University, Year]', '[B.Sc. — University, Year]']
   }
 };
