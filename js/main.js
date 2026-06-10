@@ -187,3 +187,137 @@ document.addEventListener('DOMContentLoaded', () => {
   if (yrEl) yrEl.textContent = new Date().getFullYear();
 
 });
+// ── FACULTY MODAL DATA ──────────────────────────────────────────
+const facultyData = {
+  'indrani-ghosh': {
+    name: 'Dr. Indrani Ghosh',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/IG.jpeg',
+    email: 'Indrani.ghosh@adamasuniversity.ac.in',
+    designation: '[Designation / Title]',
+    dept: '[Department / Specialisation]',
+    bio: `Dr. Indrani Ghosh is an environmental scientist, academician, and Programme Coordinator in the Unit of Environmental Science, actively engaged in interdisciplinary research and curriculum development in Environmental Science and Sustainability. She completed her Ph.D. from Indian Institute of Technology Bombay and has been serving as Assistant Professor since 2017.
+Her research expertise includes wastewater treatment, bioremediation, environmental pollution assessment, and sustainable environmental technologies. She has contributed significantly to the development of microalgae-based wastewater treatment modules and environmental exposure assessment studies across both micro and macro environments.
+Dr. Ghosh has been actively involved in collaborative and interdisciplinary research projects, including multi-institutional international collaborations with the University of York. She also serves as Principal Investigator for a SEED Research Scheme-funded project on microalgae-based wastewater treatment systems supported by Adamas University.
+In addition to her research activities, she plays a leading role in curriculum development and implementation of undergraduate and postgraduate programmes in Environmental Science and Sustainability under the NEP 2020 framework.
+`,
+    research: ['Wastewater Treatment & Bioremediation', 'Microalgae-based Environmental Technologies', 'Air Pollution Exposure Assessment', 'Environmental Monitoring & Sustainability','Environmental Science Education'],
+    education: [
+      '[PhD — University, Year]',
+      '[M.Sc. — University, Year]',
+      '[B.Sc. — University, Year]'
+    ]
+  },
+  'prantik-banerjee': {
+    name: 'Dr. Prantik Banerjee',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/PB.jpeg',
+    email: '[prantik.email@adamasuniversity.ac.in]',
+    designation: '[Designation / Title]',
+    dept: '[Department / Specialisation]',
+    bio: '[Add biography here.]',
+    research: ['[Research Area 1]', '[Research Area 2]'],
+    education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
+  },
+  'tanmoy-dey': {
+    name: 'Dr. Tanmoy Kumar Dey',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/TKD-scaled.jpg',
+    email: '[tanmoy.email@adamasuniversity.ac.in]',
+    designation: '[Designation / Title]',
+    dept: '[Department / Specialisation]',
+    bio: '[Add biography here.]',
+    research: ['[Research Area 1]', '[Research Area 2]'],
+    education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
+  },
+  'vijoyeta-chakraborty': {
+    name: 'Dr. Vijoyeta Chakraborty',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/VJC.jpg.jpeg',
+    email: '[vijoyeta.email@adamasuniversity.ac.in]',
+    designation: '[Designation / Title]',
+    dept: '[Department / Specialisation]',
+    bio: '[Add biography here.]',
+    research: ['[Research Area 1]', '[Research Area 2]'],
+    education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
+  },
+  'moumita-chakraborty': {
+    name: 'Dr. Moumita Chakraborty',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/MC.jpeg',
+    email: '[moumita.email@adamasuniversity.ac.in]',
+    designation: '[Designation / Title]',
+    dept: '[Department / Specialisation]',
+    bio: '[Add biography here.]',
+    research: ['[Research Area 1]', '[Research Area 2]'],
+    education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
+  },
+  'ritam-bhattacharya': {
+    name: 'Dr. Ritam Bhattacharya',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/RB.jpg.jpeg',
+    email: '[ritam.email@adamasuniversity.ac.in]',
+    designation: '[Designation / Title]',
+    dept: '[Department / Specialisation]',
+    bio: '[Add biography here.]',
+    research: ['[Research Area 1]', '[Research Area 2]'],
+    education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
+  },
+  'aditi-ghosh-hazra': {
+    name: 'Ms. Aditi Ghosh Hazra',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/AGH1.jpeg',
+    email: '[aditi.email@adamasuniversity.ac.in]',
+    designation: '[Designation / Title]',
+    dept: '[Department / Specialisation]',
+    bio: '[Add biography here.]',
+    research: ['[Research Area 1]', '[Research Area 2]'],
+    education: ['[M.Sc. — University, Year]', '[B.Sc. — University, Year]']
+  },
+  'rupa-chaudhuri': {
+    name: 'Ms. Rupa Chaudhuri',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/RC.jpg.jpeg',
+    email: '[rupa.email@adamasuniversity.ac.in]',
+    designation: '[Designation / Title]',
+    dept: '[Department / Specialisation]',
+    bio: '[Add biography here.]',
+    research: ['[Research Area 1]', '[Research Area 2]'],
+    education: ['[M.Sc. — University, Year]', '[B.Sc. — University, Year]']
+  }
+};
+
+function openFacultyModal(id) {
+  const data = facultyData[id];
+  if (!data) return;
+
+  document.getElementById('fm-photo').src = data.photo;
+  document.getElementById('fm-photo').alt = data.name;
+  document.getElementById('fm-name').textContent = data.name;
+  document.getElementById('fm-designation').textContent = data.designation;
+  document.getElementById('fm-dept').textContent = data.dept;
+  document.getElementById('fm-bio').textContent = data.bio;
+
+  const emailBtn = document.getElementById('fm-email-btn');
+  emailBtn.href = 'mailto:' + data.email;
+  document.getElementById('fm-email-text').textContent = data.email;
+
+  // Research tags
+  const tagsEl = document.getElementById('fm-research-tags');
+  tagsEl.innerHTML = data.research.map(r => `<span class="fm-tag">${r}</span>`).join('');
+
+  // Education
+  const eduEl = document.getElementById('fm-edu-list');
+  eduEl.innerHTML = data.education.map(e => `<li>${e}</li>`).join('');
+
+  document.getElementById('faculty-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeFacultyModal(event) {
+  if (event.target === document.getElementById('faculty-modal')) {
+    closeFacultyModalDirect();
+  }
+}
+
+function closeFacultyModalDirect() {
+  document.getElementById('faculty-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Close on Escape key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeFacultyModalDirect();
+});
