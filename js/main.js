@@ -195,10 +195,14 @@ const facultyData = {
     email: 'Indrani.ghosh@adamasuniversity.ac.in',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
-    bio: `Dr. Indrani Ghosh is an environmental scientist, academician, and Programme Coordinator in the Unit of Environmental Science, actively engaged in interdisciplinary research and curriculum development in Environmental Science and Sustainability. She completed her Ph.D. from Indian Institute of Technology Bombay and has been serving as Assistant Professor since 2017.
-Her research expertise includes wastewater treatment, bioremediation, environmental pollution assessment, and sustainable environmental technologies. She has contributed significantly to the development of microalgae-based wastewater treatment modules and environmental exposure assessment studies across both micro and macro environments.
-Dr. Ghosh has been actively involved in collaborative and interdisciplinary research projects, including multi-institutional international collaborations with the University of York. She also serves as Principal Investigator for a SEED Research Scheme-funded project on microalgae-based wastewater treatment systems supported by Adamas University.
-In addition to her research activities, she plays a leading role in curriculum development and implementation of undergraduate and postgraduate programmes in Environmental Science and Sustainability under the NEP 2020 framework.
+    bio: `
+<p>Dr. Indrani Ghosh is an environmental scientist, academician, and Programme Coordinator in the Unit of Environmental Science, actively engaged in interdisciplinary research and curriculum development in Environmental Science and Sustainability. She completed her Ph.D. from Indian Institute of Technology Bombay and has been serving as Assistant Professor since 2017.</p>
+<br>
+<p>Her research expertise includes wastewater treatment, bioremediation, environmental pollution assessment, and sustainable environmental technologies. She has contributed significantly to the development of microalgae-based wastewater treatment modules and environmental exposure assessment studies across both micro and macro environments.</p>
+<br>
+<p>Dr. Ghosh has been actively involved in collaborative and interdisciplinary research projects, including multi-institutional international collaborations with the University of York. She also serves as Principal Investigator for a SEED Research Scheme-funded project on microalgae-based wastewater treatment systems supported by Adamas University.</p>
+<br>
+<p>In addition to her research activities, she plays a leading role in curriculum development and implementation of undergraduate and postgraduate programmes in Environmental Science and Sustainability under the NEP 2020 framework.</p>
 `,
     research: ['Wastewater Treatment & Bioremediation', 'Microalgae-based Environmental Technologies', 'Air Pollution Exposure Assessment', 'Environmental Monitoring & Sustainability','Environmental Science Education'],
     education: [
@@ -288,7 +292,8 @@ function openFacultyModal(id) {
   document.getElementById('fm-name').textContent = data.name;
   document.getElementById('fm-designation').textContent = data.designation;
   document.getElementById('fm-dept').textContent = data.dept;
-  document.getElementById('fm-bio').textContent = data.bio;
+  const bioContainer = document.getElementById('fm-bio');
+  bioContainer.innerHTML = data.bio;
 
   const emailBtn = document.getElementById('fm-email-btn');
   emailBtn.href = 'mailto:' + data.email;
