@@ -214,9 +214,9 @@ const facultyData = {
   'prantik-banerjee': {
     name: 'Dr. Prantik Banerjee',
     photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/PB.jpeg',
-    email: '[prantik.email@adamasuniversity.ac.in]',
-    designation: '[Designation / Title]',
-    dept: '[Department / Specialisation]',
+    email: 'prantik.banerjee@adamasuniversity.ac.in',
+    designation: 'Assistant Professor',
+    dept: 'Department of Chemistry',
     bio: `
     <p>Dr. Prantik Banerjee is an environmental scientist and sustainability researcher specializing in wastewater treatment, environmental pollution monitoring, and climate risk assessment. He completed his Ph.D. from the University of Calcutta and has been serving as Assistant Professor since 2019.</p>
     <br>
@@ -231,9 +231,9 @@ const facultyData = {
   'tanmoy-dey': {
     name: 'Dr. Tanmoy Kumar Dey',
     photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/TKD-scaled.jpg',
-    email: '[tanmoy.email@adamasuniversity.ac.in]',
-    designation: '[Designation / Title]',
-    dept: '[Department / Specialisation]',
+    email: 'tanmoy1.dey@adamasuniversity.ac.in',
+    designation: 'Assistant Professor',
+    dept: 'Department of Chemistry',
     bio: `
     <p>Dr. Tanmoy Kumar Dey is an environmental microbiologist and biotechnology researcher working at the interface of environmental health, microbiology, nanobiotechnology, and waste valorisation. He completed his Ph.D. from the University of Calcutta and pursued Post-Doctoral research at the ICMR-National Institute of Cholera and Enteric Diseases. He has been serving as Assistant Professor since 2021.</p>
     <br>
@@ -246,9 +246,9 @@ const facultyData = {
   'vijoyeta-chakraborty': {
     name: 'Dr. Vijoyeta Chakraborty',
     photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/VJC.jpg.jpeg',
-    email: '[vijoyeta.email@adamasuniversity.ac.in]',
-    designation: '[Designation / Title]',
-    dept: '[Department / Specialisation]',
+    email: 'vijoyeta.chakraborty1@adamasuniversity.ac.in',
+    designation: 'Assistant Professor',
+    dept: 'Department of Chemistry',
     bio: `
     <p>Dr. Vijoyeta Chakraborty is an environmental scientist specializing in nanotechnology-based environmental applications, wastewater treatment technologies, and air pollution management. She completed her Ph.D. from Jadavpur University and has been serving as Assistant Professor since 2024.</p>
     <br>
@@ -259,9 +259,9 @@ const facultyData = {
   'moumita-chakraborty': {
     name: 'Dr. Moumita Chakraborty',
     photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/MC.jpeg',
-    email: '[moumita.email@adamasuniversity.ac.in]',
-    designation: '[Designation / Title]',
-    dept: '[Department / Specialisation]',
+    email: 'moumita.chakraborty1@adamasuniversity.ac.in',
+    designation: 'Assistant Professor',
+    dept: 'Department of Chemistry',
     bio: `
     <p>Dr. Moumita Chakraborty is an environmental scientist with expertise in waste management, environmental safety, and sustainability studies. She completed her Ph.D. from G.B. Pant University of Agriculture and Technology and has been serving as Assistant Professor since 2024.</p>
     <br>
