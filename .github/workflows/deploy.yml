@@ -1,0 +1,31 @@
+name: Deploy Website to Server
+
+on:
+  push:
+    branches:
+      - main # Triggers deployment when pushing to main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚀 Remote SSH Git Pull
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 65002 # Hostinger custom SSH port (change to 22 for standard servers)
+          script: |
+            # 1. Navigate to target directory
+            cd domains/waa.auaicoe.in/public_html
+            
+            # 2. Automatically initialize git if it hasn't been set up yet
+            if [ ! -d ".git" ]; then
+              git init
+              git remote add origin https://github.com/sidharth205/Water-and-Air-Analysis-website.git
+            fi
+            
+            # 3. Pull updates from GitHub
+            git fetch origin main
+            git reset --hard origin/main
