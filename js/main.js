@@ -315,10 +315,19 @@ const facultyData = {
     designation: 'Chair, Research Advisory Committee',
     dept: 'Professor, Environmental Science, [Institution], Kolkata',
     bio: `
-    <p>Prof. Aniruddha Mukhopadhyay brings decades of academic leadership and environmental research expertise to the advisory committee. His work spans sustainable development, pollution management, and environmental policy.</p>
+    <p>Prof. Aniruddha Mukhopadhyay is a distinguished environmental scientist, academician, and researcher with extensive contributions in Environmental Science, Sustainability, Environmental Biotechnology, and Ecotoxicology. He is associated with the Department of Environmental Science at the University of Calcutta and has played a significant role in advancing interdisciplinary environmental research and higher education in India.</p>
     <br>
-    <p>At the Centre, he provides strategic guidance on research priorities and collaborative initiatives across water and air quality science.</p>`,
-    research: ['Sustainable Development', 'Pollution Management', 'Environmental Policy', 'Academic Leadership'],
+    <p>Prof. Aniruddha Mukhopadhyay is a distinguished environmental scientist, academician, and researcher with extensive contributions in Environmental Science, Sustainability, Environmental Biotechnology, and Ecotoxicology. He is associated with the Department of Environmental Science at the University of Calcutta and has played a significant role in advancing interdisciplinary environmental research and higher education in India.</p>
+    <br>
+    <p>His research spans a wide range of contemporary environmental themes including bioremediation, environmental toxicology, nanotechnology-based remediation, wastewater treatment, climate change, biodiversity conservation, environmental health, occupational exposure studies, and sustainable environmental management. His work has contributed significantly to understanding arsenic contamination, wastewater reclamation, environmental pollution, eco-toxicological responses, and sustainable remediation technologies.</p>
+    <br>
+    <p>Prof. Mukhopadhyay has published extensively in reputed national and international journals and has contributed to numerous books, edited volumes, and conference proceedings published by leading scientific publishers including Springer, Elsevier, CRC Press, and Wiley. His interdisciplinary research approach integrates environmental science with biotechnology, nanoscience, sustainability, and public health perspectives.</p>
+    <br>
+    <p>As a dedicated research mentor and academic leader, he has supervised several doctoral researchers and postgraduate scholars in emerging areas of environmental science and sustainability. His academic contributions have helped shape research in environmental biotechnology, climate resilience, environmental health, and ecological sustainability.</p>
+    <br>
+    <p>Beyond research and teaching, Prof. Mukhopadhyay has actively contributed to scientific seminars, workshops, academic training programmes, and policy-oriented environmental discussions, promoting sustainable development and environmental awareness through education and collaborative research initiatives.</p>
+    `,
+    research: ['Environmental Biotechnology ', 'Bioremediation & Wastewater Treatment ', 'Environmental Toxicology ', 'Nanotechnology in Environmental Remediation ', 'Climate Change & Sustainability ', 'Biodiversity Conservation ', 'Environmental Health & Pollution Studies ', 'Sustainable Environmental Technologies ', 'Ecotoxicology & Occupational Health ', 'Climate Resilience ', 'Water Quality & Pollution Control ', 'Biodiversity & Ecosystem Sustainability '],
     education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
   },
   'pradip-kumar-sikdar': {
@@ -328,10 +337,19 @@ const facultyData = {
     designation: 'Member, Research Advisory Committee',
     dept: 'Professor, [Discipline], [Institution], Kolkata',
     bio: `
-    <p>Prof. Pradip Kumar Sikdar is an experienced researcher and educator whose work supports the Centre's academic and research frameworks. His focus includes advanced environmental science, systems analysis, and sustainable technology solutions.</p>
+    <p>Prof. Pradip Kumar Sikdar is a distinguished hydrogeologist, environmental scientist, and academician with more than 28 years of experience in groundwater hydrology, environmental management, and water resource sustainability. He is currently serving as Professor in the Department of Environment Management at the Indian Institute of Social Welfare and Business Management.</p>
     <br>
-    <p>He contributes advisory input on interdisciplinary research design and mentorship for emerging faculty collaborations.</p>`,
-    research: ['Advanced Environmental Science', 'Systems Analysis', 'Sustainable Technology', 'Research Mentorship'],
+    <p>Educated at the University of Calcutta in Geology and Hydrogeology, and at the University of Newcastle upon Tyne in Integrated Coastal Zone Management, Prof. Sikdar has built an internationally respected career at the intersection of hydrogeology, groundwater science, and environmental sustainability.</p>
+    <br>
+    <p>His research focuses on groundwater hydrology, arsenic contamination in the Bengal Basin, groundwater modeling, isotope hydrology, environmental impact assessment, watershed management, and sustainable water resource development. His pioneering studies on groundwater contamination around Kolkata, including the hydrogeological impacts of the Dhapa Solid Waste Dumping Ground and East Kolkata Wetlands, have received wide scientific recognition and citation.</p>
+    <br>
+    <p>Prof. Sikdar has contributed extensively to scientific research, consultancy, and academic leadership through collaborations with industries, consultant groups, NGOs, and academic institutions. He has published more than 100 research papers, numerous project reports, and several books related to groundwater management and environmental science.</p>
+    <br>
+    <p>In addition to supervising doctoral and post-doctoral research scholars, he serves as Visiting Faculty at the University of Calcutta and Presidency University, teaching Hydrogeology and Water Resource Management.</p>
+    <br>
+    <p>His outstanding contributions to groundwater science and environmental management have been recognized through prestigious honors including the Dewang Mehta Business School Award and the Groundwater Science Excellence Award.</p>
+    `,
+    research: ['Groundwater Hydrology ', 'Arsenic Contamination Studies ', 'Hydrogeological Modeling ', 'Environmental Impact Assessment ', 'Water Resource Management ', 'Water Resource Management ', 'Sustainable Water Supply Systems '],
     education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
   },
   'sourja-ghosh': {
@@ -341,10 +359,22 @@ const facultyData = {
     designation: 'Member, Research Advisory Committee',
     dept: 'Scientist, [Institute], Kolkata',
     bio: `
-    <p>Dr. Sourja Ghosh is a scientist whose advisory role strengthens the Centre's connections to applied research and industry practice. Her expertise includes environmental monitoring, data-driven research, and practical implementation strategies.</p>
+    <pr>Dr. Sourja Ghosh is a distinguished scientist and Senior Principal Scientist in the Ceramic Membrane Division at the CSIR-Central Glass and Ceramic Research Institute. With an internationally recognized research profile in ceramic membrane technology, wastewater treatment, and sustainable environmental engineering, she has made significant contributions to advanced water purification and waste valorization technologies.</p>
     <br>
-    <p>Her guidance helps shape research workflows and enhances the Centre's engagement with stakeholder-driven environmental challenges.</p>`,
-    research: ['Environmental Monitoring', 'Data-driven Research', 'Applied Environmental Science', 'Stakeholder Engagement'],
+    <pr>Dr. Ghosh completed her Ph.D. in Chemical Engineering from Indian Institute of Technology Kharagpur, following her M.E. in Chemical Engineering from Jadavpur University.</p>
+    <br>
+    <pr>Her research expertise spans ceramic membranes, industrial wastewater recycling, hazardous waste management, water purification systems, sustainable materials, and circular economy approaches in environmental engineering. She is particularly known for developing ceramic membrane-based technologies for textile effluent recycling and “zero discharge” wastewater treatment systems.</p>
+    <br>
+    <pr>Dr. Ghosh has led several impactful projects on iron and arsenic removal technologies for safe drinking water, including field-scale implementation of purification plants in remote and border regions. Her work integrates advanced membrane science with sustainable environmental solutions aimed at improving water security and industrial sustainability. In addition to water treatment technologies, her research explores green material development and waste valorization strategies, including coal-derived syngas for green energy applications, natural biopolymer-based composites, and the sustainable conversion of textile waste into high-value biochar materials for pollutant removal.</p>
+    <br>
+    <pr>Her innovative research on transforming hazardous industrial waste into value-added materials has contributed significantly to sustainable waste management practices. Notably, she developed methods for the safe disposal of arsenic-rich sludge and toxic wastes.</p>
+    <br>
+    <pr>Dr. Ghosh has an outstanding scientific publication record with more than 2,500 citations and has received recognition for her impactful research contributions. She was awarded the Best Paper Award for her work on the sustainable conversion of cotton waste into phosphorus-doped biochar for efficient dye removal applications.</p>
+    <br>
+    <pr>Through her interdisciplinary research and technological innovations, Dr. Ghosh continues to contribute to the advancement of sustainable environmental technologies, water treatment systems, and circular economy solutions for industrial and societal applications.</p>
+    <br>
+    `,
+    research: ['Ceramic Membrane Technology', 'Wastewater Treatment & Recycling', 'Water Purification Systems', 'Hazardous Waste Valorization', 'Sustainable Materials Development', 'Biochar & Adsorbent Technologies', 'Circular Economy & Green Engineering', 'Textile Effluent Recycling Systems', 'Sustainable Biochar Development', 'Green Energy & Syngas Research', 'Toxic Waste Utilization in Glass Materials'],
     education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
   }
 };
