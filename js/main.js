@@ -307,6 +307,45 @@ const facultyData = {
     <p>Her academic and research interests focus on the impacts of environmental pollution on human health, disease physiology, and environmental health risk assessment.</p>`,
     research: ['Environmental Health', 'Pollution & Human Health', 'Disease Physiology', 'Environmental Risk Assessment'],
     education: ['[M.Sc. — University, Year]', '[B.Sc. — University, Year]']
+  },
+  'aniruddha-mukhopadhyay': {
+    name: 'Prof. Aniruddha Mukhopadhyay',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/AM-sir.png',
+    email: '',
+    designation: 'Chair, Research Advisory Committee',
+    dept: 'Professor, Environmental Science, [Institution], Kolkata',
+    bio: `
+    <p>Prof. Aniruddha Mukhopadhyay brings decades of academic leadership and environmental research expertise to the advisory committee. His work spans sustainable development, pollution management, and environmental policy.</p>
+    <br>
+    <p>At the Centre, he provides strategic guidance on research priorities and collaborative initiatives across water and air quality science.</p>`,
+    research: ['Sustainable Development', 'Pollution Management', 'Environmental Policy', 'Academic Leadership'],
+    education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
+  },
+  'pradip-kumar-sikdar': {
+    name: 'Prof. Pradip Kumar Sikdar',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/PKS-Sir.png',
+    email: '',
+    designation: 'Member, Research Advisory Committee',
+    dept: 'Professor, [Discipline], [Institution], Kolkata',
+    bio: `
+    <p>Prof. Pradip Kumar Sikdar is an experienced researcher and educator whose work supports the Centre's academic and research frameworks. His focus includes advanced environmental science, systems analysis, and sustainable technology solutions.</p>
+    <br>
+    <p>He contributes advisory input on interdisciplinary research design and mentorship for emerging faculty collaborations.</p>`,
+    research: ['Advanced Environmental Science', 'Systems Analysis', 'Sustainable Technology', 'Research Mentorship'],
+    education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
+  },
+  'sourja-ghosh': {
+    name: 'Dr. Sourja Ghosh',
+    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/Sourjya-Ghosh-Mam.jpg',
+    email: '',
+    designation: 'Member, Research Advisory Committee',
+    dept: 'Scientist, [Institute], Kolkata',
+    bio: `
+    <p>Dr. Sourja Ghosh is a scientist whose advisory role strengthens the Centre's connections to applied research and industry practice. Her expertise includes environmental monitoring, data-driven research, and practical implementation strategies.</p>
+    <br>
+    <p>Her guidance helps shape research workflows and enhances the Centre's engagement with stakeholder-driven environmental challenges.</p>`,
+    research: ['Environmental Monitoring', 'Data-driven Research', 'Applied Environmental Science', 'Stakeholder Engagement'],
+    education: ['[PhD — University, Year]', '[M.Sc. — University, Year]']
   }
 };
 
@@ -323,8 +362,13 @@ function openFacultyModal(id) {
   bioContainer.innerHTML = data.bio;
 
   const emailBtn = document.getElementById('fm-email-btn');
-  emailBtn.href = 'mailto:' + data.email;
-  document.getElementById('fm-email-text').textContent = data.email;
+  if (data.email && data.email.trim()) {
+    emailBtn.href = 'mailto:' + data.email;
+    document.getElementById('fm-email-text').textContent = data.email;
+    emailBtn.style.display = '';
+  } else {
+    emailBtn.style.display = 'none';
+  }
 
   // Research tags
   const tagsEl = document.getElementById('fm-research-tags');
