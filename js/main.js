@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const facultyData = {
   'indrani-ghosh': {
     name: 'Dr. Indrani Ghosh',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/IG.jpeg',
+    photo: 'images/faculties/IG.jpeg',
     email: 'Indrani.ghosh@adamasuniversity.ac.in',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
@@ -213,7 +213,7 @@ const facultyData = {
   },
   'prantik-banerjee': {
     name: 'Dr. Prantik Banerjee',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/PB.jpeg',
+    photo: 'images/faculties/PB.jpeg',
     email: 'prantik.banerjee@adamasuniversity.ac.in',
     designation: 'Assistant Professor',
     dept: 'Department of Chemistry',
@@ -230,7 +230,7 @@ const facultyData = {
   },
   'tanmoy-dey': {
     name: 'Dr. Tanmoy Kumar Dey',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/TKD-scaled.jpg',
+    photo: 'images/faculties/TKD.JPG',
     email: 'tanmoy1.dey@adamasuniversity.ac.in',
     designation: 'Assistant Professor',
     dept: 'Department of Chemistry',
@@ -245,7 +245,7 @@ const facultyData = {
   },
   'vijoyeta-chakraborty': {
     name: 'Dr. Vijoyeta Chakraborty',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/VJC.jpg.jpeg',
+    photo: 'images/faculties/VJC.jpg.jpeg',
     email: 'vijoyeta.chakraborty1@adamasuniversity.ac.in',
     designation: 'Assistant Professor',
     dept: 'Department of Chemistry',
@@ -258,7 +258,7 @@ const facultyData = {
   },
   'moumita-chakraborty': {
     name: 'Dr. Moumita Chakraborty',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/MC.jpeg',
+    photo: 'images/faculties/MC.jpeg',
     email: 'moumita.chakraborty1@adamasuniversity.ac.in',
     designation: 'Assistant Professor',
     dept: 'Department of Chemistry',
@@ -271,7 +271,7 @@ const facultyData = {
   },
   'ritam-bhattacharya': {
     name: 'Dr. Ritam Bhattacharya',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/RB.jpg.jpeg',
+    photo: 'images/faculties/RB.jpg.jpeg',
     email: '[ritam.email@adamasuniversity.ac.in]',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
@@ -284,7 +284,7 @@ const facultyData = {
   },
   'aditi-ghosh-hazra': {
     name: 'Ms. Aditi Ghosh Hazra',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/AGH1.jpeg',
+    photo: 'images/faculties/AGH1.jpeg',
     email: '[aditi.email@adamasuniversity.ac.in]',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
@@ -297,7 +297,7 @@ const facultyData = {
   },
   'rupa-chaudhuri': {
     name: 'Ms. Rupa Chaudhuri',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/RC.jpg.jpeg',
+    photo: 'images/faculties/RC.jpg.jpeg',
     email: '[rupa.email@adamasuniversity.ac.in]',
     designation: '[Designation / Title]',
     dept: '[Department / Specialisation]',
@@ -310,7 +310,7 @@ const facultyData = {
   },
   'aniruddha-mukhopadhyay': {
     name: 'Prof. Aniruddha Mukhopadhyay',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/AM-sir.png',
+    photo: 'images/research_people/AM sir.png',
     email: '',
     designation: 'Chair, Research Advisory Committee',
     dept: 'Professor, Environmental Science, [Institution], Kolkata',
@@ -332,7 +332,7 @@ const facultyData = {
   },
   'pradip-kumar-sikdar': {
     name: 'Prof. Pradip Kumar Sikdar',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/PKS-Sir.png',
+    photo: 'images/research_people/PKS Sir.png',
     email: '',
     designation: 'Member, Research Advisory Committee',
     dept: 'Professor, [Discipline], [Institution], Kolkata',
@@ -354,7 +354,7 @@ const facultyData = {
   },
   'sourja-ghosh': {
     name: 'Dr. Sourja Ghosh',
-    photo: 'https://waterair.auaicoe.in/wp-content/uploads/2026/06/Sourjya-Ghosh-Mam.jpg',
+    photo: 'images/research_people/Sourjya Ghosh Mam.jpg',
     email: '',
     designation: 'Member, Research Advisory Committee',
     dept: 'Scientist, [Institute], Kolkata',
